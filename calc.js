@@ -1,5 +1,3 @@
-// var on =document.getElementById('one');
-// on.addEventListener('click',oner);
 function num(x)
 {
     
