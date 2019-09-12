@@ -1,0 +1,61 @@
+body{
+    background-image: linear-gradient(to right,rgb(8, 8, 83),rgb(191, 231, 247));
+}
+.container
+{
+    background-color: rgb(6, 136, 235);
+    width: 493px;
+    height: 574px;
+    margin-left: 720px;
+    margin-right: auto;
+    margin-top: 43px;
+    margin-bottom: auto;
+    border: 1.5px solid burlywood
+}
+button
+{
+    background-color: cyan;
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 41px;
+    text-align: center;
+    overflow: hidden;
+}
+.textview
+{
+   
+    width: 470.5px;
+    height: 70px;
+    background-color: whitesmoke;
+    margin-left: 10px;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border: 4.5px solid cyan;
+    box-sizing: border-box;
+    font-size: 40px;
+    text-align: right;
+}
+/* #clear, #enter
+{
+    font-size: 25px;
+    /* margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+
+button:hover
+{
+    transform: scale(1.05);
+}
+button:focus{
+    outline: none;
+}
+#input:focus
+{
+    outline: none;
+}

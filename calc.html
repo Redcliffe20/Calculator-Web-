@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="logo.jpg" type="jpg" />
+    <link rel="stylesheet" href="calc.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <form name="form">
+        <input class="textview" name="textview"><br>
+        </form>
+        <button id="one" onclick="num('1')">
+            1
+        </button>
+        <button id="two" onclick="num('2')">
+            2
+        </button>
+        <button id="three" onclick="num('3')">
+            3
+        </button>
+        <button id="add" onclick="num('+')">
+            +
+        </button><br>
+        <button id="four" onclick="num('4')">
+            4
+        </button>
+        <button id="five" onclick="num('5')">
+            5
+        </button>
+        <button id="six" onclick="num('6')">
+            6
+        </button>
+        <button id="sub" onclick="num('-')">
+            -
+        </button><br>
+        <button id="seven" onclick="num('7')">
+            7
+        </button>
+        <button id="eight" onclick="num('8')">
+            8
+        </button>
+        <button id="nine" onclick="num('9')">
+            9
+        </button>
+        <button id="multiple" onclick="num('*')">
+            X
+        </button><br>
+        <button id="clear" onclick="clearnum()">
+            CLR
+        </button>
+        <button id="zero" onclick="num('0')">
+            0
+        </button>
+        <button id="enter" onclick="enter()">
+            ENT
+        </button>
+        <button id="division" onclick="num('/')">
+            /
+        </button>
+
+    </div>
+    <script src="calc.js"></script>
+
+</body>
+</html>
